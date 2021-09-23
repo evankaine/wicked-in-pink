@@ -7,13 +7,16 @@
   margin: 2.5rem;
 }
 
-.hero {
-  position: absolute;
-  top: 0;
-  left: 0;
-  position: relative;
-  z-index: 10;
+.hero-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  width: 100vw;
+
 }
+
 
 .wip-logo-hero {
   width: 40rem;
@@ -21,8 +24,21 @@
 
 .text-hero {
   color: white;
-  font-size: 2rem;
-  padding-bottom: 1rem;
+  font-size: 4.9rem;
+  margin-top: 1rem;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: .1rem;
+  width: 40rem;
+}
+.slogan-hero {
+  color: white;
+  font-size: 1.2rem;
+  padding-bottom: .5rem;
+  letter-spacing: .06rem;
+}
+.pink-text {
+  color: #E74098;
+  font-family: 'Oswald', sans-serif;
 }
 
 
@@ -30,7 +46,7 @@
   margin: 0 auto;
   overflow: hidden;
   width: 65rem;
-  filter: brightness(85%);
+  filter: brightness(90%);
 }
 
 .slideshowSlider {
@@ -42,7 +58,7 @@
   display: inline-block;
   height: 30rem;
   width: 100%;
-  border-radius: 0rem;
+  border-radius: 0.25rem;
 }
 
 /* Buttons */
@@ -65,4 +81,30 @@
 
 .slideshowDot.active {
   background-color: #E74098;
+}
+
+.legal-text {
+  color: #EAA5C2;
+  letter-spacing: .04rem;
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  width: 100vw;
+}
+
+.left-grid{
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+.middle-grid {
+  grid-area: 1 / 2 / 2 / 3;
+}
+
+.right-grid {
+  grid-area: 1 / 3 / 2 / 4; 
 }

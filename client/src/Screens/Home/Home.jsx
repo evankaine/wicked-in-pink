@@ -1,6 +1,12 @@
-import React, { useState, useEffect, useRef} from 'react'
+import React, { useState, useEffect, useRef } from 'react'
+
 import "./Home.css"
 import { HeroImages } from "../../Data/HeroImages";
+import SponsorsLeft from '../../Components/Sponsors/SponsorsLeft';
+import SponsorsRight from '../../Components/Sponsors/SponsorsRight';
+import Article from '../../Components/Article/Article';
+import ContactButton from '../../Components/ContactButton/ContactButton';
+import PayPalButton from '../../Components/PayPalButton/PayPalButton';
 import WipLogo from "../../Images/wip-logo.png"
 
 
@@ -35,39 +41,58 @@ export default function Home() {
   return (
   <div className="home-wrapper">
 
-<div className="slideshow">
+    <div className="slideshow">
       <div
         className="slideshowSlider"
-        style={{ transform: `translate3d(${-index * 100}%, 0, 0)` }}
-      >
+        style={{ transform: `translate3d(${-index * 100}%, 0, 0)` }}>
         {HeroImages.map((item, backgroundColor, index) => (
-          <img
-            className="slide"
-            src={item.image}
-            key={index}
-            style={{ backgroundColor }}
-          ></img>
+          <a href="https://www.facebook.com/WickedInPink/events" target="_blank">
+            <img
+              className="slide"
+              src={item.image}
+              key={index}
+              style={{ backgroundColor }}>
+            </img>
+          </a>
         ))}
       </div>
 
-      <div className="slideshowDots">
-        {HeroImages.map((_, idx) => (
-          <div
-            key={idx}
-            className={`slideshowDot${index === idx ? " active" : ""}`}
-            onClick={() => {
-              setIndex(idx);
-            }}
-          ></div>
+    <div className="slideshowDots">
+      {HeroImages.map((_, idx) => (
+        <div
+          key={idx}
+          className={`slideshowDot${index === idx ? " active" : ""}`}
+          onClick={() => {
+            setIndex(idx);
+          }}>
+        </div>
         ))}
       </div>
     </div>
 
-    {/* <div className="hero">
+      <div className="hero-grid">
+        <ContactButton className="hero-left" />
+      <div className="hero-middle">
         <h1 className="text-hero">
-          Helping To Support All In The Fight Against Cancer!
+          WICKED IN <span className="pink-text">PINK</span> RUN
         </h1>
-      </div> */}
+        <h2 className="slogan-hero">
+          Helping To Support All In The Fight Against Cancer!
+        </h2>
+        <p className="legal-text">
+          501 (c) 3 Non-Profit Charity Organization
+        </p>
+      </div>
+      
+      {/* <PayPalButton className="hero-right" /> */}
+    </div>
+
+    <div className="about-grid">
+        <SponsorsLeft className="left-gird" />
+        <Article className="middle-grid" />
+        <SponsorsRight className="right-gird" />
+    </div>
+
     </div>
   )
 }

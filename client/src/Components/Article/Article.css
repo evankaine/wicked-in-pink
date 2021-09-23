@@ -1,0 +1,10 @@
+.article {
+  text-align: left;
+  width: 40rem;
+}
+#p-tag {
+  margin: 1.5rem auto;
+  font-size: 1.1rem;
+  letter-spacing: .04rem;
+  text-indent: 2.5rem;
+}

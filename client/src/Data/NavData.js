@@ -10,8 +10,8 @@ export const NavData = [
     className: 'navbar-text'
   },
   {
-    title: 'About',
-    path: '/about',
+    title: 'Donate',
+    path: '/donate',
     className: 'navbar-text'
   },
   {

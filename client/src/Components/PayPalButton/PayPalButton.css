@@ -1,0 +1,38 @@
+
+
+.paypal-container {
+  margin-top: 2.4rem;
+}
+
+.paypal-link {
+  text-decoration: none;
+}
+
+.paypal {
+  margin: 0rem;
+  height:4rem;
+  width: 14rem;
+  -webkit-backface-visibility: hidden;
+  -ms-transform: translateZ(0); /* IE 9 */
+  -webkit-transform: translateZ(0); /* Chrome, Safari, Opera */
+  transform: translateZ(0);
+  transition: all .2s ease-in-out;
+}
+.paypal:hover {
+  opacity: .6;
+  transform: scale(.98);
+}
+
+.card-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+.card-container {
+  padding-left: .25rem;
+  padding-right: .25rem;
+  padding-top: .5rem;
+}
+
+.cards {
+  width: 3rem;
+}

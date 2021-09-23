@@ -1,0 +1,30 @@
+.sponsor-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.left {
+  margin: 2rem 0;
+  width: 14rem;
+}
+.left-logo {
+  margin: 2rem 0;
+  width: 10rem;
+}
+
+
+.sponsor-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.right {
+  margin: 2rem 0;
+  width: 14rem;
+}
+
+

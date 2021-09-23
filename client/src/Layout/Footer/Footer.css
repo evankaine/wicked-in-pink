@@ -1,0 +1,8 @@
+.footer-wrapper {
+
+  bottom: 0;
+  width: 100%;
+  height: 6rem;
+  /* box-shadow: inset 0 0 6px 4px #000000c8; */
+  box-shadow: inset rgb(0, 0, 0) 0px 8px 8px -6px;
+}

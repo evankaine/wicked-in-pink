@@ -50,5 +50,6 @@
 .tagline {
   color: #EAA5C2;
   font-size: 1.2rem;
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
