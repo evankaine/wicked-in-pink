@@ -1,0 +1,54 @@
+.navbar-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wip-container{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.wip-logo-nav {
+  padding: .5rem .3rem 0rem .3rem;
+  width: 10rem;
+  -webkit-backface-visibility: hidden;
+  -ms-transform: translateZ(0); /* IE 9 */
+  -webkit-transform: translateZ(0); /* Chrome, Safari, Opera */
+  transform: translateZ(0);
+  transition: all .4s ease-in-out;
+}
+.wip-logo-nav:hover {
+  opacity: .8;
+  transform: scale(1.1);
+}
+
+.navbar-data-container {
+  display: flex;
+  flex-direction: row;
+  padding: .3rem 1rem .3rem 1rem;
+}
+.navbar-text {
+  list-style: none;
+}
+.link{
+  text-decoration: none;
+  color: #FAF9F6;
+  padding: 16px;
+  font-size: 1.3rem;
+}
+.link:visited {
+  color: white;
+}
+.link:active {
+  color: #e74098;
+}
+.link:hover {
+  color: #e74098;
+}
+
+.tagline {
+  color: #EAA5C2;
+  font-size: 1.2rem;
+  text-align: center;
+}
