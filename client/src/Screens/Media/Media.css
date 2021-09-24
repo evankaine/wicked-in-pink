@@ -1,16 +1,22 @@
 .photo-wrapper {
-  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  margin: 2rem;
+  margin-top: 0;
+  margin-bottom: .2rem;
 }
 .media-header{ 
   color: #E74098;
   font-size: 5rem;
-  margin-top: 1rem;
+  margin-top: .5rem;
   font-family: 'Oswald', sans-serif;
   letter-spacing: .1rem;
   text-align: center;
 }
 .year-container {
-  margin-top: .5rem;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -21,12 +27,11 @@
 
 }
 
-.yearsrow2 {
 
-}
 
 a {
   text-decoration: none;
+  cursor: pointer;
 }
 .photo-text {
   color: white;
@@ -37,8 +42,30 @@ a {
   display: inline-block;
   color: white;
   transition: .2s ease-in-out;
+  cursor: pointer;
 }
 .photo-text:hover {
   color: #E74098;
   transform: scale(1.25);
+}
+
+.haymondvideo {
+  margin: .5rem;
+  padding: .5rem;
+  background-color: #EAA5C2;
+}
+
+.wip2019 {
+  margin: .5rem;
+  padding: .5rem;
+  background-color: #EAA5C2;
+}
+
+.photo-ad {
+  margin-top: 2rem;
+  -webkit-backface-visibility: hidden;
+  -ms-transform: translateZ(0); /* IE 9 */
+  -webkit-transform: translateZ(0); /* Chrome, Safari, Opera */
+  transform: translateZ(0);
+  width: 40rem;
 }
