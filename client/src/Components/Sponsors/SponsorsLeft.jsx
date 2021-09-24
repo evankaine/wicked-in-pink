@@ -9,7 +9,9 @@ export default function SponsorsLeft() {
       <div className="sponsor-left">
         {SponsorLeft.map((item, index) => {
           return (
-          <img key={index} className={item.className} src={item.leftimage} />
+            <a href={item.link} target="_blank">
+              <img key={index} className={item.className} src={item.leftimage} />
+            </a>
         )
         })}
       </div>

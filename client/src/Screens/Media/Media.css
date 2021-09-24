@@ -1,0 +1,44 @@
+.photo-wrapper {
+  height: 100vh;
+}
+.media-header{ 
+  color: #E74098;
+  font-size: 5rem;
+  margin-top: 1rem;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: .1rem;
+  text-align: center;
+}
+.year-container {
+  margin-top: .5rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.years {
+
+}
+
+.yearsrow2 {
+
+}
+
+a {
+  text-decoration: none;
+}
+.photo-text {
+  color: white;
+  font-size: 3rem;
+  padding: 1.5rem;
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+  color: white;
+  transition: .2s ease-in-out;
+}
+.photo-text:hover {
+  color: #E74098;
+  transform: scale(1.25);
+}

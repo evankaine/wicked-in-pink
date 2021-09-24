@@ -6,7 +6,7 @@ export default function ContactButton() {
   return (
     <div className="button-wrapper">
       <Link className="arrow-link" to="/contact">
-        <button className="arrow">Become a Sponsor</button>
+        <button className="arrow">Become a Sponsor...</button>
       </Link>
     </div>
   )

@@ -1,6 +1,7 @@
 
 export const SponsorRight = [
   {
+    link: 'https://www.rolandsmotorworks.com/',
     rightimage: 'https://i.imgur.com/kXqjSbZ.png',
     className: 'right'
   },
@@ -9,6 +10,7 @@ export const SponsorRight = [
     className: 'right'
   },
   {
+    link: 'http://westoverbuilding.com/',
     rightimage: 'https://i.imgur.com/HRLdaDV.png',
     className: 'right'
   },

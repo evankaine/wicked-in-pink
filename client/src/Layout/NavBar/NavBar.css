@@ -35,18 +35,17 @@
   text-decoration: none;
   color: #FAF9F6;
   padding: 16px;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }
 .link:visited {
   color: white;
 }
-.link:active {
-  color: #e74098;
-}
 .link:hover {
   color: #e74098;
 }
-
+.link:active {
+  color: #e74098;
+}
 .tagline {
   color: #EAA5C2;
   font-size: 1.2rem;

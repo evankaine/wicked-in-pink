@@ -4,6 +4,7 @@ import Home from "./Screens/Home/Home"
 import NavBar from "./Layout/NavBar/NavBar"
 import Events from './Screens/Events/Events';
 import Footer from './Layout/Footer/Footer';
+import Media from './Screens/Media/Media';
 
 function App() {
   return (
@@ -16,6 +17,10 @@ function App() {
 
       <Route exact path="/events" >
         <Events />
+      </Route>
+
+      <Route exact path="/media" >
+        <Media />
       </Route>
 
       

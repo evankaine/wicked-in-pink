@@ -5,7 +5,7 @@ import { HeroImages } from "../../Data/HeroImages";
 import SponsorsLeft from '../../Components/Sponsors/SponsorsLeft';
 import SponsorsRight from '../../Components/Sponsors/SponsorsRight';
 import Article from '../../Components/Article/Article';
-import ContactButton from '../../Components/ContactButton/ContactButton';
+
 import PayPalButton from '../../Components/PayPalButton/PayPalButton';
 import WipLogo from "../../Images/wip-logo.png"
 
@@ -71,8 +71,6 @@ export default function Home() {
     </div>
 
       <div className="hero-grid">
-        <ContactButton className="hero-left" />
-      <div className="hero-middle">
         <h1 className="text-hero">
           WICKED IN <span className="pink-text">PINK</span> RUN
         </h1>
@@ -82,9 +80,6 @@ export default function Home() {
         <p className="legal-text">
           501 (c) 3 Non-Profit Charity Organization
         </p>
-      </div>
-      
-      {/* <PayPalButton className="hero-right" /> */}
     </div>
 
     <div className="about-grid">
