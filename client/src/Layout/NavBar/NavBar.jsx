@@ -35,10 +35,6 @@ export default function Nav() {
         })}
       </div>
     </div>
-      
-      <div>
-        <p className="tagline">Ride For The Ones You Love • Ride For The Ones You Lost</p>
-      </div>
     </div>
   )
 }

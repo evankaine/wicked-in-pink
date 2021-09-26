@@ -4,6 +4,7 @@
   justify-content: center;
   align-items: center;
   margin: auto;
+  margin-bottom: 1rem;
 }
 
 .arrow-link {
@@ -12,26 +13,28 @@
 
 .arrow {
   font-family: 'Oswald', sans-serif;
- font-weight: 700;
+  font-weight: 700;
   position: relative;
   height: 4.5rem;
   width: 14rem;
-  margin: auto;
+  margin: auto 2rem;
+  margin-bottom: 2.5rem;
   padding: auto;
   font-size: 1.4rem;
   color: black;
   border: none;
-  border-radius: 0.5rem;
+  border-radius: 10rem;
   text-transform: uppercase;
   overflow:hidden;
   cursor: pointer;
-  box-shadow:
-    -8px 8px 5px hsla(0, 0%, 0%, 0.15),
-    5px 18px 10px hsla(0, 0%, 0%, 0.2); 
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
   cursor: pointer;
   transition: transform 0.1s, box-shadow 0.1s;
   background: linear-gradient(to top, #e74098, #EAA5C2);
-  transition: .2s ease-in-out;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 .arrow:after {
@@ -129,4 +132,14 @@ animation: shadow2 4s ease-in infinite;
   opacity: .8;
 }
 
+.arrowlogo {
+  width: 2.3rem;
+  margin-right: 1rem;
+}
 
+.sponsor {
+  margin-right: 1.3rem;
+  font-size: 1.5rem;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+}

@@ -14,8 +14,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #1d1d1d;
-  color: white;
+  background-color: #1c1b1b;
+  background: radial-gradient(closest-side, #37363c, #595860, #595860, #2d2c31);
+  color: black;
   overflow-x: hidden;
 }
 

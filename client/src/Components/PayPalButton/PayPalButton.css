@@ -12,17 +12,15 @@
   position: relative;
   height: 4.5rem;
   width: 14rem;
-  margin: auto;
+  margin: auto 2rem;
   padding: auto;
   color: black;
   border: none;
-  border-radius: 0.5rem;
+  border-radius: 10rem;
   text-transform: uppercase;
   overflow:hidden;
   cursor: pointer;
-  box-shadow:
-    -8px 8px 5px hsla(0, 0%, 0%, 0.15),
-    5px 18px 10px hsla(0, 0%, 0%, 0.2); 
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
   cursor: pointer;
   transition: transform 0.1s, box-shadow 0.1s;
   transition: .2s ease-in-out;
@@ -143,6 +141,8 @@
 .card-wrapper {
   display: flex;
   flex-direction: row;
+  position: relative;
+  z-index: 999;
 }
 .card-container {
   padding-left: .25rem;

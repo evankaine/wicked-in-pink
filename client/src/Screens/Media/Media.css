@@ -1,26 +1,42 @@
+
+.photo {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex: 1;
+}
+
 .photo-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   position: relative;
-  margin: 2rem;
-  margin-top: 0;
-  margin-bottom: .2rem;
+  margin: 5rem;
+  margin-top: 2.5rem;
+  background-color: #e9e9e9;
+  width: 80vw;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 .media-header{ 
-  color: #E74098;
+  color: #e74098;
   font-size: 5rem;
   margin-top: .5rem;
   font-family: 'Oswald', sans-serif;
   letter-spacing: .1rem;
   text-align: center;
 }
+
+
+
 .year-container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  width: 60%;
 }
 
 .years {
@@ -34,15 +50,16 @@ a {
   cursor: pointer;
 }
 .photo-text {
-  color: white;
+  color: #E74098;
   font-size: 3rem;
   padding: 1.5rem;
   text-decoration: none;
   position: relative;
   display: inline-block;
-  color: white;
+  font-family: 'Oswald', sans-serif;
   transition: .2s ease-in-out;
   cursor: pointer;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 .photo-text:hover {
   color: #E74098;
@@ -52,17 +69,19 @@ a {
 .haymondvideo {
   margin: .5rem;
   padding: .5rem;
-  background-color: #EAA5C2;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
 .wip2019 {
   margin: .5rem;
   padding: .5rem;
-  background-color: #EAA5C2;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
 .photo-ad {
-  margin-top: 2rem;
+  margin-top: 5rem;
   -webkit-backface-visibility: hidden;
   -ms-transform: translateZ(0); /* IE 9 */
   -webkit-transform: translateZ(0); /* Chrome, Safari, Opera */

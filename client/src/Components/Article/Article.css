@@ -1,6 +1,6 @@
 .article {
   text-align: left;
-  width: 40rem;
+  text-shadow: -.4px 0 black, 0 .4px black, .4px 0 black, 0 -.4px black;
 }
 #p-tag {
   margin: 1.5rem auto;
@@ -10,9 +10,3 @@
   font-family: 'Open Sans', sans-serif;
 }
 
-.button-div {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
