@@ -16,7 +16,7 @@
   padding: auto;
   color: black;
   border: none;
-  border-radius: 10rem;
+  border-radius: .5rem;
   text-transform: uppercase;
   overflow:hidden;
   cursor: pointer;

@@ -6,8 +6,9 @@ export default function Media() {
   return (
     <div className="photo">
       <div className="photo-wrapper">
-      {/* <h1 className="media-header">MEDIA</h1> */}
-
+        
+        {/* <h1 className="media-header">MEDIA</h1> */}
+        
       <div className="year-container">
       {Photos.map((item, index) => {
         return (

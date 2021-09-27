@@ -18,12 +18,12 @@
   height: 4.5rem;
   width: 14rem;
   margin: auto 2rem;
-  margin-bottom: 2.5rem;
+  margin-bottom: 2.55rem;
   padding: auto;
   font-size: 1.4rem;
   color: black;
   border: none;
-  border-radius: 10rem;
+  border-radius: .5rem;
   text-transform: uppercase;
   overflow:hidden;
   cursor: pointer;

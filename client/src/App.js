@@ -5,6 +5,7 @@ import NavBar from "./Layout/NavBar/NavBar"
 import Events from './Screens/Events/Events';
 import Footer from './Layout/Footer/Footer';
 import Media from './Screens/Media/Media';
+import WhoWeServe from './Screens/WhoWeServe/WhoWeServe';
 
 function App() {
   return (
@@ -17,6 +18,10 @@ function App() {
 
       <Route exact path="/events" >
         <Events />
+      </Route>
+
+      <Route exact path="/whoweserve" >
+        <WhoWeServe />
       </Route>
 
       <Route exact path="/media" >
