@@ -10,21 +10,19 @@
 
 .paypal {
   position: relative;
-  height: 4.5rem;
-  width: 14rem;
+  height: 4rem;
+  width: 12rem;
   margin: auto 2rem;
   padding: auto;
   color: black;
-  border: none;
-  border-radius: .5rem;
+  border-radius: .25rem;
   text-transform: uppercase;
   overflow:hidden;
   cursor: pointer;
-  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-  cursor: pointer;
+  border: none;
   transition: transform 0.1s, box-shadow 0.1s;
-  transition: .2s ease-in-out;
-  background: linear-gradient(to top, #e74098, #EAA5C2);
+  transition: .3s ease-in-out;
+  background: transparent;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -122,8 +120,9 @@
   }
   
   .paypal:hover {
-    transform: scale(.98);
+    transform: scale(1.1);
     opacity: .8;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
   }
 
 .paypallogo {
@@ -151,5 +150,5 @@
 }
 
 .cards {
-  width: 3rem;
+  width: 2rem;
 }
