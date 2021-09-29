@@ -1,18 +1,18 @@
 
 .photo {
   margin: auto;
-  display: flex;
+   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  flex: 1;
+  flex: 1; 
+   
 }
 
 .photo-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  /* display: flex;
+  align-items: center; */
+
   position: relative;
   margin: 5rem;
   margin-top: 2.5rem;
@@ -29,14 +29,29 @@
   text-align: center;
 }
 
-
+.content-container {
+  display: flex;
+  flex: row;
+  justify-content: center; 
+  align-items: center; 
+}
 
 .year-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column-reverse;
   flex-wrap: wrap;
   justify-content: center;
-  width: 60%;
+  align-items: center;
+  width: 50%;
+  margin-top: 75px;
+}
+.video-container {
+  display: flex;
+  flex-direction: column-reverse;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
 }
 
 .years {
@@ -67,19 +82,26 @@ a {
 }
 
 .haymondvideo {
-  margin: .5rem;
-  padding: .5rem;
-  background-color: white;
+  margin: 1rem;
+  background: none;
+
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
 .wip2019 {
-  margin: .5rem;
-  padding: .5rem;
-  background-color: white;
+  margin: 1rem;
+  background: none;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
+
+.ad-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
 .photo-ad {
   margin-top: 5rem;
   -webkit-backface-visibility: hidden;
@@ -87,4 +109,15 @@ a {
   -webkit-transform: translateZ(0); /* Chrome, Safari, Opera */
   transform: translateZ(0);
   width: 40rem;
+}
+
+
+.camera {
+  transform: scale(2.5);
+  margin-bottom: 10px;
+}
+
+.video-camera {
+  transform: scale(2.5);
+  margin-bottom: 25px;
 }

@@ -31,3 +31,25 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+.text-wrapper {
+  margin: 25px 75px;
+  text-align: left;
+  font-size: 1.1rem;
+  letter-spacing: .02rem;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.text-break {
+  text-align: center;
+  font-weight: bold;
+  margin: 25px 15px;
+}
+
+.text-list {
+  margin-bottom: 75px;
+}
+
+.boldspan {
+  font-weight: bold;
+}

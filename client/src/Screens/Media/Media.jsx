@@ -1,6 +1,8 @@
 import React from 'react'
 import "./Media.css"
 import { Photos } from '../../Data/Photos'
+import PhotoCameraIcon from '@mui/icons-material/PhotoCamera';
+import VideoCameraBackIcon from '@mui/icons-material/VideoCameraBack';
 
 export default function Media() {
   return (
@@ -8,7 +10,7 @@ export default function Media() {
       <div className="photo-wrapper">
         
         {/* <h1 className="media-header">MEDIA</h1> */}
-        
+    <div className="content-container">
       <div className="year-container">
       {Photos.map((item, index) => {
         return (
@@ -18,9 +20,11 @@ export default function Media() {
                 {item.year}
               </h1>
             </a>
+
           </div>
         )
       })}
+        <PhotoCameraIcon  className ="camera" />
       </div>
 
       <div className="video-container">
@@ -39,12 +43,16 @@ export default function Media() {
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen>
         </iframe>
+        <VideoCameraBackIcon className ="video-camera" />
       </div>
-
-      <div>
+    
+  </div>
+        
+      <div className="ad-container">
         <img className="photo-ad" src="https://static.wixstatic.com/media/3b1f02_47c676207adb4bb1b052b061e32120cb.jpg/v1/fill/w_834,h_109,al_c,q_80,usm_0.66_1.00_0.01/3b1f02_47c676207adb4bb1b052b061e32120cb.webp" />
-        </div>
       </div>
+        
     </div>
+  </div>
   )
 }
