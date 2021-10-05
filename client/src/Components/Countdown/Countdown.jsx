@@ -1,6 +1,8 @@
 import React from 'react'
 import "./Countdown.css"
 
+// w3school reference
+
 // Set the date we're counting down to
 var countDownDate = new Date("Oct 10, 2021 13:00:00").getTime();
 

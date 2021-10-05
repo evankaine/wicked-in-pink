@@ -6,6 +6,7 @@ import Events from './Screens/Events/Events';
 import Footer from './Layout/Footer/Footer';
 import Media from './Screens/Media/Media';
 import WhoWeServe from './Screens/WhoWeServe/WhoWeServe';
+import Contact from './Screens/Contact/Contact';
 
 function App() {
   return (
@@ -26,6 +27,10 @@ function App() {
 
       <Route exact path="/media" >
         <Media />
+      </Route>
+
+      <Route exact path="/contact" >
+        <Contact />
       </Route>
 
       

@@ -6,7 +6,7 @@
 
 .wip-container{
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
 }
 .wip-logo-nav {
@@ -48,7 +48,7 @@ display: inline-block;
 height: 1rem;
 width: 100%;
 border-bottom: 4px solid;
-margin-top: 14px;
+margin-top: 16px;
 opacity: 0;
 -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 transition: opacity 0.35s, transform 0.35s;
