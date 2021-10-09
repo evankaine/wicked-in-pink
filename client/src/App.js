@@ -7,11 +7,13 @@ import Footer from './Layout/Footer/Footer';
 import Media from './Screens/Media/Media';
 import WhoWeServe from './Screens/WhoWeServe/WhoWeServe';
 import Contact from './Screens/Contact/Contact';
+import SocialBar from './Components/SocialBar/SocialBar';
 
 function App() {
   return (
     <div className="App">
       <NavBar />
+      <SocialBar />
       
       <Route exact path="/" >
         <Home />
@@ -33,7 +35,6 @@ function App() {
         <Contact />
       </Route>
 
-      
       <Footer />
     </div>
   );

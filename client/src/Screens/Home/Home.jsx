@@ -7,6 +7,7 @@ import SponsorsRight from '../../Components/Sponsors/SponsorsRight';
 import Article from '../../Components/Article/Article';
 import ContactButton from '../../Components/ContactButton/ContactButton';
 import PayPalButton from '../../Components/PayPalButton/PayPalButton';
+
 import WipLogo from "../../Images/wip-logo.png"
 
 
@@ -40,8 +41,9 @@ export default function Home() {
   
   return (
     <div className="home">
+      
       <div className="home-wrapper">
-        
+      
       <div>
         <p className="tagline">Ride For The Ones You Love • Ride For The Ones You Lost</p>
       </div>
