@@ -1,0 +1,171 @@
+/* .button-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-bottom: 1rem;
+}
+
+.arrow-link {
+  text-decoration: none;
+}
+
+.arrow {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  position: relative;
+  height: 4rem;
+  width: 12rem;
+  margin: auto 2rem;
+  margin-bottom: 2rem;
+  padding: auto;
+  font-size: 1.4rem;
+  color: black;
+  border: none;
+  border-radius: .25rem;
+  text-transform: uppercase;
+  overflow:hidden;
+  cursor: pointer;
+  transition: transform 0.1s, box-shadow 0.1s;
+  transition: .3s ease-in-out;
+  background: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.arrow:hover {
+  transform: scale(1.1);
+  opacity: .8; 
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.arrowlogo {
+  width: 2.3rem;
+  margin-right: 1rem;
+}
+
+.sponsor {
+  margin-right: 1.3rem;
+  font-size: 1.5rem;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+} */
+
+
+$bg: #f3f8fa;
+$white: #fff;
+$black: #282936;
+
+@mixin transition($property: all, $duration: 0.45s, $ease: cubic-bezier(0.65,0,.076,1)) {
+  transition: $property $duration $ease;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-bottom: 1rem;
+  padding: 5px 20px;
+  &.sponsor-wrapper {
+    margin-bottom: 50px;
+}
+}
+
+button {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  vertical-align: middle;
+  text-decoration: none;
+  background: transparent;
+  padding: 0px;
+  font-size: 1.4rem;
+  font-family: inherit;
+  &.learn-more {
+    width: 12rem;
+    height: auto;
+    .circle {
+      @include transition(all, 0.45s, cubic-bezier(0.65,0,.076,1));
+      position: relative;
+      display: block;
+      margin: 0;
+      width: 3rem;
+      height: 3rem;
+      background: transparent;
+      border-radius: 1.625rem;
+      .icon {
+        @include transition(all, 0.45s, cubic-bezier(0.65,0,.076,1));
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        background: $white;
+        &.arrow {
+          @include transition(all, 0.45s, cubic-bezier(0.65,0,.076,1));
+          left: 4px;
+          width: 2.5rem;
+          height: 2.5rem;
+          background: none;
+          &::before {
+            position: absolute;
+            content: '';
+            top: -0.25rem;
+            right: 0.0625rem;
+            width: 0.625rem;
+            height: 0.625rem;
+            border-top: 0.125rem solid #fff;
+            border-right: 0.125rem solid #fff;
+            transform: rotate(45deg);
+          }
+        }
+      }
+    }
+    .button-text {
+      @include transition(all, 0.45s, cubic-bezier(0.65,0,.076,1));
+      position: absolute;
+      top: 0;
+      left: .2rem;
+      right: 0;
+      bottom: 0;
+      padding: 0.25rem 0;
+      margin: 0 0 0 1.85rem;
+      color: $black;
+      line-height: 1.6;
+      text-align: center;
+      text-transform: uppercase;
+      font-family: 'Oswald', sans-serif;
+      font-weight: 700;
+    }
+  }
+  &:hover {
+    .circle {
+      width: 100%;
+      background: $black;
+      .icon {
+        &.arrow {
+        // background: $white;
+
+        transform: translate(1rem, 0);
+        }
+      }
+    }
+    .button-text {
+      color: $white;
+    }
+  }
+}
+
+// @supports (display: grid) {
+//   #container {
+//     grid-area: main;
+//     align-self: center;
+//     justify-self: center;
+//   }
+// }
