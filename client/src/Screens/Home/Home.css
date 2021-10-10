@@ -27,11 +27,11 @@
   text-transform: uppercase;
   font-family: 'Oswald', sans-serif;
   font-size: 1.2rem;
-  letter-spacing: .06rem;
+  letter-spacing: .05rem;
   text-align: center;
   margin-bottom: 0rem;
   padding-bottom: 0rem;
-  margin-top: .25rem;
+  margin-top: .2rem;
 
 }
 
@@ -64,9 +64,9 @@
 
 
 .slideshow {
-  margin: .5rem auto;
+  margin: .25rem auto;
   overflow: hidden;
-  width: 92%;
+  width: 93%;
   filter: brightness(90%);
   
 }
