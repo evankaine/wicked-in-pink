@@ -12,7 +12,7 @@ export default function Article() {
 
         <p id="p-tag">The mission of the Wicked in Pink charity is to raise money for the SR. CARITAS CANCER CENTER Patient Services Fund to help with many of the financial burdens cancer patients may face, as well as show support for all those battling cancer, cancer survivors, as well as their caregivers, family and friends. That means we're putting money into the hands of the patients to help them with some of the expenses involved in going through treatment. That's direct and indirect expenses. Often, it's the latter that's the hardest hitting.</p>
 
-        <p id="p-tag">If you can't make our yearly motorcycle run but would still like to help, there's a donate button below. Just click on it and you can make a donation using Paypal, a credit card or a debit card. We thank you for you support.</p>
+        <p id="p-tag">If you can't make our yearly motorcycle run but would still like to help, there's a donate button below. Just click on it and you can make a donation using Paypal, a credit card or a debit card. We thank you for your support.</p>
       </div>
     </div>
   )

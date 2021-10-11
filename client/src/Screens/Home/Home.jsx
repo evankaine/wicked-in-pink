@@ -41,12 +41,12 @@ export default function Home() {
   
   return (
     <div className="home">
-      
       <div className="home-wrapper">
       
       <div>
         <p className="tagline">Ride For The Ones You Love • Ride For The Ones You Lost</p>
       </div>
+        
     <div className="slideshow">
       <div
         className="slideshowSlider"

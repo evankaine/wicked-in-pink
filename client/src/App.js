@@ -7,6 +7,8 @@ import Footer from './Layout/Footer/Footer';
 import Media from './Screens/Media/Media';
 import WhoWeServe from './Screens/WhoWeServe/WhoWeServe';
 import Contact from './Screens/Contact/Contact';
+import Donate from './Screens/Donate/Donate';
+import Shop from './Shop/Shop';
 import SocialBar from './Components/SocialBar/SocialBar';
 
 function App() {
@@ -19,12 +21,20 @@ function App() {
         <Home />
       </Route>
 
-      <Route exact path="/events" >
+      {/* <Route exact path="/events" >
         <Events />
-      </Route>
+      </Route> */}
 
       <Route exact path="/whoweserve" >
         <WhoWeServe />
+      </Route>
+
+      <Route exact path="/donate" >
+        <Donate />
+      </Route>
+
+      <Route exact path="/shop" >
+        <Shop />
       </Route>
 
       <Route exact path="/media" >

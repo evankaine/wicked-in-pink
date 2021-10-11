@@ -1,9 +1,9 @@
 export const NavData = [
-  {
-    title: 'EVENTS',
-    path: '/events',
-    className: 'navbar-text'
-  },
+  // {
+  //   title: 'EVENTS',
+  //   path: '/events',
+  //   className: 'navbar-text'
+  // },
   {
     title: 'WHO WE SERVE',
     path: '/whoweserve',
@@ -12,6 +12,11 @@ export const NavData = [
   {
     title: 'DONATE',
     path: '/donate',
+    className: 'navbar-text'
+  },
+  {
+    title: 'SHOP',
+    path: '/shop',
     className: 'navbar-text'
   },
   {
