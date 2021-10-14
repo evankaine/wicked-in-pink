@@ -9,11 +9,11 @@ export default function Shop() {
     <div className="shop">
       <div className="shop-wrapper">
         <ShopHeader />
-        <div className="main-shop">
+        {/* <div className="main-shop">
           <h2>Products</h2>
       
           <Basket />
-        </div>
+        </div> */}
       </div>
     </div>
   )
