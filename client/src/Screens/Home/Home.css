@@ -51,7 +51,7 @@
 }
 .slogan-hero {
   color: #EAA5C2;
-  text-shadow: -.2px 0 black, 0 .2px black, .2px 0 black, 0 -.2px black;
+  text-shadow: -.5px 0 black, 0 .5px black, .5px 0 black, 0 -.5px black;
   font-size: 1.3rem;
   padding-bottom: .5rem;
   letter-spacing: .06rem;
