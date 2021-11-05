@@ -1,5 +1,4 @@
 import React, { useState, useEffect, useRef } from 'react'
-
 import "./Home.css"
 import { HeroImages } from "../../Data/HeroImages";
 import SponsorsLeft from '../../Components/Sponsors/SponsorsLeft';
@@ -7,8 +6,6 @@ import SponsorsRight from '../../Components/Sponsors/SponsorsRight';
 import Article from '../../Components/Article/Article';
 import ContactButton from '../../Components/ContactButton/ContactButton';
 import PayPalButton from '../../Components/PayPalButton/PayPalButton';
-
-import WipLogo from "../../Images/wip-logo.png"
 
 
 const delay = 4500;
