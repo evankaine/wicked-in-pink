@@ -7,11 +7,13 @@
 .left {
   margin: 2rem 1.5rem;
   width: 14rem;
+  height: auto;
   flex: 1;
 }
 .left-logo {
   margin: 2rem 0;
   width: 10rem;
+  height: auto;
   flex: 1;
 }
 
@@ -19,13 +21,28 @@
 .sponsor-right {
   display: flex;
   flex-direction: column;
+  height: auto;
   flex: 1;
 }
 
 .right {
   margin: 2rem 1.5rem;
   width: 14rem;
+  height: auto;
   flex: 1;
 }
 
-
+@media (max-width: 1150px) {
+  .left-logo {
+    margin: 6rem 1.5rem;
+    width: 6rem;
+  }
+  .left {
+    margin: 6rem 1.5rem;
+    width: 10rem;
+  }
+  .right {
+    margin: 6rem 1.5rem;
+    width: 10rem;
+  }
+}

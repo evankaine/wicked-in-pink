@@ -90,6 +90,12 @@ export default function Home() {
         <SponsorsRight className="right-gird" />
       </div>
         
+        <div className="media-about">
+        <Article />
+        <SponsorsLeft  />
+        <SponsorsRight />
+      </div>
+        
       <div className="button-div">
         <ContactButton />
         <PayPalButton />
