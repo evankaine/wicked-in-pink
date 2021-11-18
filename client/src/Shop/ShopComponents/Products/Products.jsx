@@ -9,15 +9,17 @@ import useStyles from './styles';
 //   { id: 2, name: 'WIP Hoodie | 2022', description: 'Wicked in Pink 2022 Hoodie', price: '$40', image: 'https://cdn.shopify.com/s/files/1/2776/0162/products/basic_hoodie_pink.jpg?v=1527366409'},
 // ]
 
-const Products = ({ products }) => {
+const Products = ({ products, onAddToCart}) => {
+
   const classes = useStyles()
+
   return (
     <main className={classes.content}>
       <div className={classes.toolbar} />
       <Grid container justify="center" spacing={4}>
         {products.map((product) => (
           <Grid item key={product.id} xs={12} sm={6} md={4} lg={3}>
-            <Product product={product} />
+            <Product product={product} onAddToCart={onAddToCart} />
           </Grid>
         ))}
       </Grid>
