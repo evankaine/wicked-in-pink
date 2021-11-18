@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from "react-router-dom"
 import "./NavBar.css"
 import WipLogo from "../../Images/wip-logo.png"
-import Countdown from "../../Components/Countdown/Countdown"
+// import Countdown from "../../Components/Countdown/Countdown"
 import { NavData } from "../../Data/NavData"
 
 
@@ -19,9 +19,9 @@ export default function Nav() {
         </Link>
         </div>
         
-        <div>
+        {/* <div>
           <Countdown />
-        </div>
+        </div> */}
 
       <div className="navbar-data-container">
         {NavData.map((item, index) => {

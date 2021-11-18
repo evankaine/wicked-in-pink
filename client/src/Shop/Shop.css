@@ -10,8 +10,6 @@
 
 .shop-wrapper {
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
   position: relative;
   margin: 2.5rem;
