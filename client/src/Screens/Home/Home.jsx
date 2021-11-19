@@ -39,7 +39,6 @@ export default function Home() {
   return (
     <div className="home">
       <div className="home-wrapper">
-      
       <div>
         <p className="tagline">Ride For The Ones You Love • Ride For The Ones You Lost</p>
       </div>
@@ -71,6 +70,7 @@ export default function Home() {
         ))}
       </div>
     </div>
+    
 
       <div className="hero-grid">
         <h1 className="text-hero">
