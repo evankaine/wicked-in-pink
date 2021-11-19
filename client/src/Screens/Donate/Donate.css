@@ -28,6 +28,7 @@
 
 .donate-article {
   padding: 50px 150px 50px 150px;
+  margin-bottom: 100px;
   text-align: left;
   font-size: 1.4rem;
   letter-spacing: .02rem;
@@ -38,5 +39,5 @@
 
 
 .donate-content-container {
-  margin: 30px 0px 75px 0px;
+  margin: 100px 0px 75px 0px;
 }
