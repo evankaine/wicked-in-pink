@@ -1,0 +1,22 @@
+#carttitle {
+  margin: 0;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-family: 'Oswald', sans-serif;
+}
+#emptycart {
+  background-color: #e94b56;
+  color: #2c2c30;
+  margin-right: 25px;
+  width: 140px;
+}
+#checkout {
+  background-color: #4b92e9;
+  color: #2c2c30;
+  margin-right: 25px;
+  width: 140px;
+}
+#subtotal {
+  font-family: 'Oswald', sans-serif;
+  font-size: 35px;
+}
