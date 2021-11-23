@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { Card, CardMedia, CardContent, CardActions, Typography, IconButton, Button, Modal, Box } from '@material-ui/core';
 import { AddShoppingCart } from '@material-ui/icons';
-import Popup from '../Popup/Popup'
 import './Product.css'
 import useStyles from './styles';
 

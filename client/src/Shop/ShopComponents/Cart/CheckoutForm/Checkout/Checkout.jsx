@@ -11,8 +11,8 @@ import {
   Button,
 } from "@material-ui/core";
 import { Link, useHistory } from "react-router-dom";
-
-import { commerce } from "../../../lib/commerce";
+import './Checkout.css'
+import { commerce } from "../../../../lib/commerce";
 import AddressForm from "../AddressForm";
 import PaymentForm from "../PaymentForm";
 import useStyles from "./styles";
@@ -126,16 +126,15 @@ const Checkout = ({ cart, onCaptureCheckout, order, error }) => {
   return (
     <>
       <CssBaseline />
-      <div className={classes.toolbar} />
       <main className={classes.layout}>
         <Paper className={classes.paper}>
           <Typography variant="h4" align="center">
-            Checkout
+            <span id="checkouttitle">Checkout</span>
           </Typography>
-          <Stepper activeStep={activeStep} className={classes.stepper}>
+          <Stepper activeStep={activeStep} className={classes.stepper} >
             {steps.map((label) => (
-              <Step key={label}>
-                <StepLabel>{label}</StepLabel>
+              <Step id="step" key={label}>
+                <StepLabel >{label}</StepLabel>
               </Step>
             ))}
           </Stepper>

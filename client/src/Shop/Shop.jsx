@@ -4,7 +4,7 @@ import { commerce } from './lib/commerce'
 import Products from './ShopComponents/Products/Products'
 import NavbarShop from './ShopComponents/NavbarShop/NavbarShop'
 import Cart from './ShopComponents/Cart/Cart'
-import Checkout from './ShopComponents/CheckoutForm/Checkout/Checkout'
+import Checkout from './ShopComponents/Cart/CheckoutForm/Checkout/Checkout'
 
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 

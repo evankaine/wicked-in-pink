@@ -30,13 +30,13 @@ const Cart = ({ cart, onUpdateCartQty, onRemoveFromCart, onEmptyCart }) => {
         </Typography>
         <div>
 
-          <Button id="emptycart" classname={classes.emptyButton}
+          {/* <Button id="emptycart" classname={classes.emptyButton}
             size="large"
             type="button"
             variant="contained"
             onClick={onEmptyCart}>
             Empty Cart
-          </Button>
+          </Button> */}
 
           <Button component={Link} to="/checkout" classname={classes.checkoutButton} size="large" type="button" variant="contained" id="checkout">
             Checkout
