@@ -17,7 +17,7 @@ const Cart = ({ cart, onUpdateCartQty, onRemoveFromCart, onEmptyCart }) => {
 
   const FilledCart = () => (
     <>
-      <Grid container spacing={3}>
+      <Grid id="cartpadding" container spacing={3}>
         {cart.line_items.map((item) => (
           <Grid item xs={12} sm={4} key={item.id}>
             <CartItem item={item} onUpdateCartQty={onUpdateCartQty} onRemoveFromCart={onRemoveFromCart} />
@@ -50,7 +50,7 @@ const Cart = ({ cart, onUpdateCartQty, onRemoveFromCart, onEmptyCart }) => {
 
   return (
     <Container>
-      <Typography className={classes.title} variant="h3" gutterBottom id="carttitle">YOUR CART</Typography>
+      {/* <Typography className={classes.title} variant="h3" gutterBottom id="carttitle">YOUR CART</Typography> */}
       { !cart.line_items.length ? <EmptyCart /> : <FilledCart />}
     </Container>
   )

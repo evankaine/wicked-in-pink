@@ -4,4 +4,10 @@
 #remove {
   background-color: #e94b56;
   color: #2c2c30;
+  min-width: 75px;
+  height: 28px;
+  font-size: 12px;
+}
+#remove:hover {
+  background-color: #b32630eb;
 }

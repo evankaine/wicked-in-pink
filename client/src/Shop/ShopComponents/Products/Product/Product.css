@@ -4,15 +4,19 @@
 
 #productname {
   font-family: 'Oswald', sans-serif;
-  font-size: 22px;
+  font-size: 18px;
 }
 #productprice{
   font-family: 'Oswald', sans-serif;
-  font-size: 16px;
+  font-size: 14px;
 }
 #productdesc{
   font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
+  font-size: 12px;
+}
+#cartdiv {
+  display: flex;
+  justify-content: flex-end;
 }
 #iconbutton {
   color: #e94b8d;
@@ -22,6 +26,35 @@
 #iconbutton:hover {
   transform: scale(1.35);
 }
+#popupbuttondiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+#popupbutton {
+  display: flex;
+  justify-content: center;
+  min-width: 75px;
+  height: 28px;
+  margin: auto;
+  font-size: 12px;
+  background-color: #e94b8d;
+  color: #2c2c30;
+}
+#viewtext{
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+}
 
+#modalstyle {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 /* font-family: 'Open Sans', sans-serif; */
 /* font-family: 'Oswald', sans-serif; */

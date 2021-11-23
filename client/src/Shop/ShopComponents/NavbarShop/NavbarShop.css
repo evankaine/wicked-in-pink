@@ -1,14 +1,16 @@
 #toolbar {
+  display: flex;
+  flex-direction: row;
   padding: 0px;
 }
 #shoplogocontainer{
-  padding: 20px;
+  padding: 5px 0px 0px 0px;
 }
 #shoplogo {
   width: 120px;
 }
 #cartcontainer {
-  padding: 15px 30px ;
+  padding: 5px 10px 0px 0px ;
 }
 #carticon {
   color: #e94b8d;

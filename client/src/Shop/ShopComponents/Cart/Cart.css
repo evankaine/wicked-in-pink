@@ -10,13 +10,22 @@
   margin-right: 25px;
   width: 140px;
 }
+#emptycart:hover {
+  background-color: #b32630eb;
+}
 #checkout {
   background-color: #4b92e9;
   color: #2c2c30;
   margin-right: 25px;
   width: 140px;
 }
+#checkout:hover {
+  background-color: #2676b3eb;
+}
 #subtotal {
   font-family: 'Oswald', sans-serif;
   font-size: 35px;
+}
+#cartpadding {
+  padding-top: 30px;
 }

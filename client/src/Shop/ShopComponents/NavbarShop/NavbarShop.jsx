@@ -13,7 +13,7 @@ const NavbarShop = ({ totalItems }) => {
 
   return (
     <>
-        <Toolbar id="toolbar" >
+      <div id="toolbar" >
           <Typography component={Link} to="/shop" variant="h6" className={classes.title} color="inherit" id="shoplogocontainer">
             <img src={logo} alt="Wicked in Pink" className={classes.iamge} id="shoplogo" />
           </Typography>
@@ -26,7 +26,7 @@ const NavbarShop = ({ totalItems }) => {
               </Badge>
             </IconButton>
           </div>)}
-        </Toolbar>
+        </div>
     </>
   )
 }
