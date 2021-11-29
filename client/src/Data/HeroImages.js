@@ -2,11 +2,11 @@ import Wipcover from "./wipcover.jpeg"
 
 export const HeroImages = [
   {
-    image: "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/253948395_2003725249789886_7740594817465862580_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=e3f864&_nc_ohc=W9qBLgrTcVcAX_PemzE&_nc_ht=scontent-lga3-1.xx&oh=f989f54eb0ff012e74c2ce84aaed58bb&oe=619D2DE1"
+    image: "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/253948395_2003725249789886_7740594817465862580_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=e3f864&_nc_ohc=d1KD0yjXoacAX-35bct&_nc_ht=scontent-lga3-1.xx&oh=4c07e7356f556a1d15e20c01418756d1&oe=61AB05A1"
   },
   
   {
-    image: "https://scontent-lga3-1.xx.fbcdn.net/v/t1.6435-9/86430435_1479518382210578_2510247284583694336_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=cdbe9c&_nc_ohc=SACnxP69Cx8AX99LYIm&tn=GbrxxJmdys_jfqaR&_nc_ht=scontent-lga3-1.xx&oh=57f8dd65e068bbdade7bc7fce2539826&oe=61BD4FFB"
+    image: "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/232130086_1924818821013863_318808659391914901_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=e3f864&_nc_ohc=q_e7KOHhTjgAX-oljxR&_nc_ht=scontent-lga3-1.xx&oh=b3e08202392d6c521beaf6a00c631786&oe=61AAB692"
   },
 
   {
