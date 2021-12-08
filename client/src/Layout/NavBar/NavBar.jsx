@@ -11,19 +11,14 @@ export default function Nav() {
   return (
     <div>
     <div className="navbar-wrapper">
-      <div className="wip-container">
-        <Link to="/">
-          <img className="wip-logo-nav"
-            src={WipLogo}
-            alt="Wicked In Pink Logo" />
-        </Link>
-        </div>
-        
-        {/* <div>
+      
+{/*         
+        <div>
           <Countdown />
         </div> */}
 
-      <div className="navbar-data-container">
+
+      <div className="navbar">
         {NavData.map((item, index) => {
           return (
           <li key={index} className={item.className}>

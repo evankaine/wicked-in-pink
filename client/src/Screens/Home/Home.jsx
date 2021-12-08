@@ -4,8 +4,8 @@ import { HeroImages } from "../../Data/HeroImages";
 import SponsorsLeft from '../../Components/Sponsors/SponsorsLeft';
 import SponsorsRight from '../../Components/Sponsors/SponsorsRight';
 import Article from '../../Components/Article/Article';
-import ContactButton from '../../Components/ContactButton/ContactButton';
-import PayPalButton from '../../Components/PayPalButton/PayPalButton';
+// import ContactButton from '../../Components/ContactButton/ContactButton';
+// import PayPalButton from '../../Components/PayPalButton/PayPalButton';
 
 
 const delay = 4500;
@@ -40,7 +40,7 @@ export default function Home() {
     <div className="home">
       <div className="home-wrapper">
       <div>
-        <p className="tagline">Ride For The Ones You Love • Ride For The Ones You Lost</p>
+        {/* <p className="tagline">Ride For The Ones You Love • Ride For The Ones You Lost</p> */}
       </div>
         
     <div className="slideshow">
@@ -96,10 +96,10 @@ export default function Home() {
         <SponsorsRight />
       </div>
         
-      <div className="button-div">
+      {/* <div className="button-div">
         <ContactButton />
         <PayPalButton />
-      </div>
+      </div> */}
     </div>
   </div>
   )

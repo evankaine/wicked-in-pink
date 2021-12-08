@@ -1,6 +1,7 @@
 import './App.css';
 import { Route } from 'react-router';
 import Home from "./Screens/Home/Home"
+import Header from './Layout/Header/Header';
 import NavBar from "./Layout/NavBar/NavBar"
 import Footer from './Layout/Footer/Footer';
 import Media from './Screens/Media/Media';
@@ -13,6 +14,7 @@ import SocialBar from './Components/SocialBar/SocialBar';
 function App() {
   return (
     <div className="App">
+      <Header />
       <NavBar />
       <SocialBar />
       

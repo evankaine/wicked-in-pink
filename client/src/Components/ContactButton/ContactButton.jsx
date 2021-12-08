@@ -5,7 +5,7 @@ import SponsorIcon from "./sponsor-icon-3.jpeg"
 
 export default function ContactButton() {
   return (
-    <div id="container" className="sponsor-wrapper">
+    <div id="container" className="button-wrapper">
       <Link className="arrow-link" to="/contact">
         <button className="learn-more">
           <span class="circle" aria-hidden="true">

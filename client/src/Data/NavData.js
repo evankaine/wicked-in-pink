@@ -1,17 +1,12 @@
 export const NavData = [
-  // {
-  //   title: 'EVENTS',
-  //   path: '/events',
-  //   className: 'navbar-text'
-  // },
   {
-    title: 'WHO WE SERVE',
-    path: '/whoweserve',
+    title: 'HOME',
+    path: '/',
     className: 'navbar-text'
   },
   {
-    title: 'DONATE',
-    path: '/donate',
+    title: 'WHO WE SERVE',
+    path: '/whoweserve',
     className: 'navbar-text'
   },
   {

@@ -1,0 +1,32 @@
+.button-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: .5rem;
+}
+
+.wip-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wip-logo-nav {
+  padding: .5rem .3rem 0rem .3rem;
+  width: 10rem;
+  -webkit-backface-visibility: hidden;
+  -ms-transform: translateZ(0); /* IE 9 */
+  -webkit-transform: translateZ(0); /* Chrome, Safari, Opera */
+  transform: translateZ(0);
+  transition: all .4s ease-in-out;
+}
+.wip-logo-nav:hover {
+  opacity: .8;
+  transform: scale(1.1);
+}

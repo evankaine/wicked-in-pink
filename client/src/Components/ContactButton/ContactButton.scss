@@ -57,7 +57,7 @@
 
 $bg: #f3f8fa;
 $white: #fff;
-$black: #282936;
+$black: #E74098;
 
 @mixin transition($property: all, $duration: 0.45s, $ease: cubic-bezier(0.65,0,.076,1)) {
   transition: $property $duration $ease;
@@ -69,10 +69,10 @@ $black: #282936;
   justify-content: center;
   align-items: center;
   margin: auto;
-  margin-bottom: 1rem;
+  margin-bottom: 0rem;
   padding: 5px 20px;
   &.sponsor-wrapper {
-    margin-bottom: 50px;
+    // margin-bottom: 50px;
 }
 }
 
@@ -136,7 +136,7 @@ button {
       bottom: 0;
       padding: 0.25rem 0;
       margin: 0 0 0 1.85rem;
-      color: $black;
+      color: white;
       line-height: 1.6;
       text-align: center;
       text-transform: uppercase;
@@ -157,7 +157,7 @@ button {
       }
     }
     .button-text {
-      color: $white;
+      color: white;
     }
   }
 }
